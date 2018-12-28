@@ -1,6 +1,6 @@
 {
-  "name": "nodebb-plugin-ns-embed",
-  "version": "3.0.1",
+  "name": "nodebb-plugin-embed",
+  "version": "3.0.6",
   "description": "Embed media and rich content in posts: youtube, vimeo, twitch etc. All embeds are based on the rules. You are encouraged to build your own rules to embed everything what is embeddable.",
   "main": "./plugin/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NicolasSiver/nodebb-plugin-ns-embed.git"
+    "url": "git+https://github.com/TheWorms/nodebb-plugin-embed.git"
   },
   "keywords": [
     "embed",
@@ -21,9 +21,9 @@
   "author": "Nicolas Siver",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NicolasSiver/nodebb-plugin-ns-embed/issues"
+    "url": "https://github.com/TheWorms/nodebb-plugin-embed/issues"
   },
-  "homepage": "https://github.com/NicolasSiver/nodebb-plugin-ns-embed#readme",
+  "homepage": "https://github.com/TheWorms/nodebb-plugin-embed#readme",
   "dependencies": {
     "async": "^1.4.2",
     "object-assign": "^4.1.1",
