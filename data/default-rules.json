@@ -64,6 +64,13 @@
       "replacement": "<div class='embed-wrapper'><div class='embed-container'><iframe  src='//video.blender.org/videos/embed/$1' frameborder='0' allowfullscreen></iframe></div></div>"
     },    
     {
+      "name": "cinelibre",
+      "displayName": "Ciné Libre",
+      "icon": "fa-film",
+      "regex": "(?:<a.*?)?(?:https?:\\/\\/)?(?:www\\.)?video\\.cabane-libre\\.org\\/videos\\/watch\\/([a-zA-Z0-9_-]{4,36})(?:.*?\\/a>)?",
+      "replacement": "<div class='embed-wrapper'><div class='embed-container'><iframe  src='//video.cabane-libre.org/videos/embed/$1' frameborder='0' allowfullscreen></iframe></div></div>"
+    },        
+    {
       "name": "soundcloud",
       "displayName": "SoundCloud",
       "icon": "fa-soundcloud",
