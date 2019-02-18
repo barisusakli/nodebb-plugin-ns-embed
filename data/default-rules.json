@@ -43,12 +43,19 @@
       "replacement": "<div class='embed-wrapper'><div class='embed-container'><iframe src='https://player.twitch.tv/?autoplay=false&video=v$1' frameborder='0' allowfullscreen></iframe></div></div>"
     },
     {
+      "name": "twitter",
+      "displayName": "Twitter",
+      "icon": "fa-twitter",
+      "regex": "(?:<a.*?)?(?:https?:\\/\\/)?(?:twitter\\.com)\/([^\/\"\\s]*)\/status\/([^\/\"\\s]*)(\/photo\/\\d|)(?:.*?\\/a>)?",
+      "replacement": "<div class='embed-wrapper'><blockquote class='twitter-tweet'><a href='https://twitter.com/$1/status/$2?ref_src=twsrc%5Etfw'></a></blockquote><script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script></div>"
+    },
+    {
       "name": "dailymotion",
       "displayName": "Dailymotion",
       "icon": "fa-film",
       "regex": "(?:<a.*?)?(?:https?:\\/\\/)?(?:www\\.)?dailymotion\\.com\\/video\\/([a-zA-Z0-9_-]{4,11})(?:.*?\\/a>)?",
       "replacement": "<div class='embed-wrapper'><div class='embed-container'><iframe  src='//www.dailymotion.com/embed/video/$1' frameborder='0' allowfullscreen></iframe></div></div>"
-    },
+    },    
     {
       "name": "framatube",
       "displayName": "FramaTube",
