@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-embed",
-  "version": "3.0.17",
+  "version": "3.0.18",
   "description": "Embed media and rich content in posts: youtube, vimeo, twitch etc. All embeds are based on the rules. You are encouraged to build your own rules to embed everything what is embeddable.",
   "main": "./plugin/index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/TheWorms/nodebb-plugin-embed/issues"
   },
-    "contributors": [
+  "contributors": [
     {
       "name": "The Worm's",
       "email": "theworms@theworms.fr",
